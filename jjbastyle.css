@@ -1,0 +1,36 @@
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: purple;
+    color: rgba(255, 255, 0, 0.74);
+}
+h1 {
+    color: yellow;
+}
+a {
+    color: #8B949E;
+    text-decoration: none;
+}
+a:hover {
+    color: #1F6FEB;
+}
+ul > li {
+    font-weight: bold;
+}
+h1+p {
+    background-color: pu;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover {
+    color: grey;
+}
+ul li::before{
+    content: "🌟";
+}
+a::after {
+    content:"💎🥌🚤🐎";
+}
+p::first-letter {
+    font-size: 288%;
+    color: #FF7872;
+}
